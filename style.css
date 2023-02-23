@@ -274,4 +274,27 @@
         background-image: none;
     }
 
+    .set-image {
+        width: 100%;
+    }
+
+    .iframe-size-correction {
+        width: 150px;
+        height: 100px;
+    }
+
+
+
+
+
+}
+
+@media only screen and (min-width: 1400px) {
+    .set-image {
+        width: 25%;
+    }
+
+    .starting {
+        margin-left: 3%;
+    }
 }
