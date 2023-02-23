@@ -77,8 +77,8 @@
     </header>
     <!-- navbar end -->
 
-    <div class="bg-secondary-subtle p-5 ">
-        <section class="bg-white border border-1 mt-5 mx-5">
+    <div class="bg-secondary-subtle m-5">
+        <section class="bg-white border border-1 mt-5">
             <div>
                 <div class="containerss">
                     <h6 class="titless d-flex justify-content-center align-items-center"><span
@@ -103,89 +103,92 @@
                                 class="text-danger">Login</a></span>
                     </p>
                 </div>
-                <div class="d-flex justify-content-center align-items-center">
-                    <div>
-                        <div class="d-flex gap-3 mx-5">
-                            <div>
-                                <label for=" language">Consumer/Company</label> <br>
-                                <select class="input-filed" name="language" id="language">
-                                    <option value="javascript">Consumer</option>
-                                    <option value="python">Company</option>
+                <form>
+                    <div class="d-flex justify-content-center align-items-center">
+                        <div>
+                            <div class="d-flex gap-3 mx-5">
+                                <div>
+                                    <label for=" language">Consumer/Company</label> <br>
+                                    <select class="input-filed" name="language" id="language">
+                                        <option value="javascript">Consumer</option>
+                                        <option value="python">Company</option>
 
-                                    <option value="java" selected disabled>Select Consumer/Company</option>
-                                </select>
+                                        <option value="java" selected disabled>Select Consumer/Company</option>
+                                    </select>
+                                </div>
+                                <div>
+                                    <label for="language">
+                                        Reference</label> <br>
+                                    <select class="input-filed" name="language" id="language">
+                                        <option value="javascript">PhotoGrapher</option>
+                                        <option value="python">Videographer</option>
+                                        <option value="python">Twitter</option>
+                                        <option value="python">Linkedin</option>
+                                        <option value="python">Instagram</option>
+
+                                        <option value="java" selected disabled>Select Reference</option>
+                                    </select>
+                                </div>
                             </div>
                             <div>
-                                <label for="language">
-                                    Reference</label> <br>
-                                <select class="input-filed" name="language" id="language">
-                                    <option value="javascript">PhotoGrapher</option>
-                                    <option value="python">Videographer</option>
-                                    <option value="python">Twitter</option>
-                                    <option value="python">Linkedin</option>
-                                    <option value="python">Instagram</option>
+                                <h4 class="text-center text-danger fw-bold my-5">Personal Details</h4>
+                                <div>
+                                    <input type="name" placeholder="First Name" class="input-filed mx-3 mt-5">
+                                    <input type="name" placeholder="Last Name" class="input-filed mx-3 mt-5">
+                                </div>
+                                <div>
+                                    <input type="email" placeholder="Enter Email" class="input-filed mx-3 mt-5">
+                                    <input type="number" placeholder="Enter Number" class="input-filed mx-3 mt-5">
+                                </div>
+                                <div>
+                                    <input type="password" placeholder="Pasword" class="input-filed mx-3 mt-5">
+                                    <input type="password" placeholder="Confirm Password" class="input-filed mx-3 mt-5">
+                                </div>
 
-                                    <option value="java" selected disabled>Select Reference</option>
-                                </select>
                             </div>
+
+                        </div>
+                    </div>
+                    <div class="mb-5 mt-5 d-lg-flex gap-3 ms-5">
+                        <div>
+                            <label for="language">
+                                Country</label> <br>
+                            <select class="input-filed" name="language" id="language">
+                                <option value="javascript">India</option>
+                                <option value="python">Bangladesh</option>
+                                <option value="python">UK</option>
+                                <option value="python">Us</option>
+                                <option value="python">Ireland</option>
+
+                                <option value="java" selected disabled>Select Country</option>
+                            </select>
                         </div>
                         <div>
-                            <h4 class="text-center text-danger fw-bold my-5">Personal Details</h4>
-                            <div>
-                                <input type="name" placeholder="First Name" class="input-filed mx-3 mt-5">
-                                <input type="name" placeholder="Last Name" class="input-filed mx-3 mt-5">
-                            </div>
-                            <div>
-                                <input type="email" placeholder="Enter Email" class="input-filed mx-3 mt-5">
-                                <input type="number" placeholder="Enter Number" class="input-filed mx-3 mt-5">
-                            </div>
-                            <div>
-                                <input type="password" placeholder="Pasword" class="input-filed mx-3 mt-5">
-                                <input type="password" placeholder="Confirm Password" class="input-filed mx-3 mt-5">
-                            </div>
+                            <label for="language">
+                                Country</label> <br>
+                            <select class="input-filed" name="language" id="language">
 
+
+                                <option value="java" selected disabled>Select State</option>
+                            </select>
                         </div>
+                        <div>
+                            <label for="language">
+                                Country</label> <br>
+                            <select class="input-filed" name="language" id="language">
+
+
+                                <option value="java" selected disabled>Select City</option>
+                            </select>
+                        </div><br>
 
                     </div>
-                </div>
-                <div class="mb-5 mt-5 d-flex gap-3 ms-5">
-                    <div>
-                        <label for="language">
-                            Country</label> <br>
-                        <select class="input-filed" name="language" id="language">
-                            <option value="javascript">India</option>
-                            <option value="python">Bangladesh</option>
-                            <option value="python">UK</option>
-                            <option value="python">Us</option>
-                            <option value="python">Ireland</option>
-
-                            <option value="java" selected disabled>Select Country</option>
-                        </select>
+                    <div class="mb-5 d-flex justify-content-between align-items-center ">
+                        <button
+                            class="px-5 py-3 w-100 mx-5 border border-danger bg-danger text-white fw-bold rounded-3">
+                            Register</button>
                     </div>
-                    <div>
-                        <label for="language">
-                            Country</label> <br>
-                        <select class="input-filed" name="language" id="language">
-
-
-                            <option value="java" selected disabled>Select State</option>
-                        </select>
-                    </div>
-                    <div>
-                        <label for="language">
-                            Country</label> <br>
-                        <select class="input-filed" name="language" id="language">
-
-
-                            <option value="java" selected disabled>Select City</option>
-                        </select>
-                    </div><br>
-
-                </div>
-                <div class="mb-5 d-flex justify-content-between align-items-center ">
-                    <button class="px-5 py-3 w-100 mx-5 border border-danger bg-danger text-white fw-bold rounded-3">
-                        Register</button>
-                </div>
+                </form>
 
             </div>
 

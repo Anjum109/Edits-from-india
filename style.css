@@ -283,7 +283,18 @@
         height: 100px;
     }
 
+    .image-size-photo-editing {
+        width: 100%
+    }
 
+    .align-set {
+        padding: 0px;
+    }
+
+    .input-filed {
+        width: 100px;
+        margin-left: -39px;
+    }
 
 }
 
@@ -291,6 +302,12 @@
     .navbar-color-set {
         border-radius: 20px;
     }
+
+    .blog-text {
+        width: 50%;
+    }
+
+
 }
 
 @media only screen and (min-width: 1200px) {
@@ -305,4 +322,17 @@
     .navbar-color-set {
         border-radius: 20px;
     }
+
+    .third-one {
+        width: 50%;
+    }
+
+    .image-size {
+        width: 50%;
+    }
+
+    .blog-text {
+        width: 50%;
+    }
+
 }
