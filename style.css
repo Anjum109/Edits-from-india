@@ -285,16 +285,24 @@
 
 
 
-
-
 }
 
-@media only screen and (min-width: 1400px) {
+@media only screen and (min-width: 800px) {
+    .navbar-color-set {
+        border-radius: 20px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
     .set-image {
         width: 25%;
     }
 
     .starting {
         margin-left: 3%;
+    }
+
+    .navbar-color-set {
+        border-radius: 20px;
     }
 }
