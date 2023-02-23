@@ -267,3 +267,11 @@
 .button-pink {
     background-color: pink;
 }
+
+/* responsive start  */
+@media only screen and (max-width: 600px) {
+    .image-set {
+        background-image: none;
+    }
+
+}
